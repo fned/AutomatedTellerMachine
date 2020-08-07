@@ -9,8 +9,10 @@ namespace AutomatedTellerMachine.Controllers
     public class HomeController : Controller
     {
         // GET /home/index
+        [MyLoggingFilter]
         public ActionResult Index()
         {
+            throw new StackOverflowException();
             return View();
         }
 
