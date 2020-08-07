@@ -8,7 +8,7 @@ namespace AutomatedTellerMachine
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
-            filters.Add(new MyLoggingFilterAttribute());
+            //filters.Add(new MyLoggingFilterAttribute());
         }
     }
 }
